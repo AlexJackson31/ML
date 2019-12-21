@@ -1,6 +1,7 @@
 import webbrowsor
 url={}
 class Short:
+    global url
     id=100
     def shortenurl(self,original_url):
         if original_url in self.url:
