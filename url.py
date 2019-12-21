@@ -1,3 +1,4 @@
+import webbrowsor
 class Short:
     url={}
     id=100
@@ -13,3 +14,4 @@ u=Short()
 n=u.shortenurl(u)
 str1="short_url.com/"+str(n)
 print("Short url is:",str1)
+webbrowsor.open(str1)
