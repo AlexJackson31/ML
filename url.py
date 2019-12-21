@@ -10,10 +10,17 @@ class Short:
             self.url[original_url]=self.id
             self.id+=1
             return self.id
+        def get_key(val): 
+
+            for key, value in url.items(): 
+
+                if val == value: 
+
+                    return key 
 u=input("Enter the url:")
 u=Short()
 n=u.shortenurl(u)
 str1="short_url.com/"+str(n)
 print("Short url is:",str1)
-webbrowsor.open(url.get(key[str1])
+webbrowsor.open(get_key(str1))
 
