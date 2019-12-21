@@ -1,6 +1,6 @@
 import webbrowsor
+url={}
 class Short:
-    url={}
     id=100
     def shortenurl(self,original_url):
         if original_url in self.url:
@@ -14,4 +14,5 @@ u=Short()
 n=u.shortenurl(u)
 str1="short_url.com/"+str(n)
 print("Short url is:",str1)
-webbrowsor.open(str1)
+webbrowsor.open(url[u])
+
