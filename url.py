@@ -22,5 +22,5 @@ u=Short()
 n=u.shortenurl(u)
 str1="short_url.com/"+str(n)
 print("Short url is:",str1)
-webbrowsor.open(get_key(str1))
+webbrowsor.open(u.get_key(str1))
 
