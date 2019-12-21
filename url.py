@@ -10,13 +10,10 @@ class Short:
             self.url[original_url]=self.id
             self.id+=1
             return self.id
-        def get_key(val): 
-
-            for key, value in url.items(): 
-
-                if val == value: 
-
-                    return key 
+     def get_key(val): 
+        for key, value in url.items(): 
+             if val == value: 
+                 return key 
 u=input("Enter the url:")
 u=Short()
 n=u.shortenurl(u)
